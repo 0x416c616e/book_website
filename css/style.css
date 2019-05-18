@@ -1,0 +1,89 @@
+* {
+    font-family: Arial;
+}
+
+body {
+    background-color: rgb(156, 188, 247);
+}
+
+h1, h2 { /*multiple selector*/
+    color: rgb(238, 238, 238);
+    text-shadow: 3px 3px black;
+}
+
+h2 {
+    background-color: #294c77;
+    width: 200px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+header {
+    background-color: #525d6f;
+    border-radius: 10px;
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border: 2px solid black;
+}
+
+nav {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    display: flex;
+    background-color: #294c77;
+    border-radius: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border: 2px solid black;
+}
+
+nav > * {
+    margin-right: auto;
+    margin-left: auto;
+}
+
+nav > a {
+    color: rgb(238, 238, 238);
+}
+
+footer {
+    color: rgb(238, 238, 238);
+    background-color: #294c77;
+    text-align: center;
+    border-radius: 5px;
+    border: 1px solid black;
+    margin-top: 6px;
+}
+
+nav > a:hover, footer > p > a:hover {
+    color: lightblue;
+}
+
+footer > p > a {
+    color: rgb(238, 238, 238);
+}
+
+main > div {
+    background-color: #525d6f;
+    border-radius: 20px;
+    padding: 10px;
+    border: 2px solid black;
+}
+
+
+.current {
+    color: lightskyblue;
+}
+
+.bodytext {
+    background-color: rgb(238, 238, 238);
+    display: inline-block;
+    border: 2px solid black;
+    padding: 1rem;
+}
