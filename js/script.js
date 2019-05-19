@@ -7,7 +7,9 @@ var quotes = [
     "This is the 4th quote",
     "These are randomly picked",
     "Quote 5",
-    "You can become a software developer"
+    "You can become a software developer",
+    "Customize this site and make it your own!",
+    "Software development is for everyone!"
 ]
 var authors = [
     "Author 1",
@@ -16,7 +18,9 @@ var authors = [
     "The 4th Author",
     "Some Random Author",
     "Person 5",
-    "Wise person"
+    "Wise person",
+    "Alan",
+    "Someone"
 ]
 
 var count = 1;
@@ -37,3 +41,6 @@ function countClick() {
     console.log('You have clicked the page ' + numberOfClicks + ' times.');
 }
 
+function exampleAlert() {
+    alert("Here is a JavaScript alert!");
+}
