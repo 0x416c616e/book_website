@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" onclick="countClick()">
     <head>
         <!-- Required meta tags -->
         <meta charset="utf-8">
@@ -29,7 +29,14 @@
                         <li>My website</li>
                         <li>Some cool app</li>
                         <li>Another cool thing</li>
-                    </ol> 
+                    </ol>
+                    <p>Here is an example project for showing random quotes with JavaScript:</p>
+                    <blockquote>
+                        <p id="quoteText">"Some cool quote"</p>
+                        <p id="quoteAuthor">Someone famous</p>
+                        <p id="quoteCount">Number of quotes shown: 1</p>
+                    </blockquote>
+                    <button onclick="newQuote()">New Quote</button> 
                 </div>
             </div>    
         </main>
