@@ -2,6 +2,10 @@
     font-family: Arial;
 }
 
+#quoteText {
+    font-size: 2rem;
+}
+
 body {
     background-color: rgb(156, 188, 247);
 }
@@ -86,4 +90,8 @@ main > div {
     display: inline-block;
     border: 2px solid black;
     padding: 1rem;
+}
+
+img {
+    z-index: 9001;
 }
